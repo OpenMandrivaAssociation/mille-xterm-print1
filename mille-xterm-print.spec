@@ -13,7 +13,6 @@ URL:		http://www.revolutionlinux.com/mille-xterm
 Source:		mille-xterm-print%{major}-%{version}.tar.bz2
 BuildRequires:	libcups-devel
 BuildRequires:	glib2-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 This program hides printers from cups. It is used to restrict the visibility
