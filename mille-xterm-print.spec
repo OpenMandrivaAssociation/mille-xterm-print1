@@ -9,6 +9,7 @@ Version:	1.0
 Release:	%mkrel 0.%{svn}.1
 License:	GPL
 Group:		System/Servers
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL:		http://www.revolutionlinux.com/mille-xterm
 Source:		mille-xterm-print%{major}-%{version}.tar.bz2
 BuildRequires:	libcups-devel
