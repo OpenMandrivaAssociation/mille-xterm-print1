@@ -6,7 +6,7 @@
 Summary:	Printer filters for the MILLE-XTERM project
 Name:		mille-xterm-print%{major}
 Version:	1.0
-Release:	%mkrel 0.%{svn}.1
+Release:	%mkrel 0.%{svn}.2
 License:	GPL
 Group:		System/Servers
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
