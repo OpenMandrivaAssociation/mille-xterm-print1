@@ -10,7 +10,7 @@ Release:	%mkrel 0.%{svn}.3
 License:	GPL
 Group:		System/Servers
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-URL:		http://www.revolutionlinux.com/mille-xterm
+URL:		https://www.revolutionlinux.com/mille-xterm
 Source:		mille-xterm-print%{major}-%{version}.tar.bz2
 BuildRequires:	libcups-devel
 BuildRequires:	glib2-devel
