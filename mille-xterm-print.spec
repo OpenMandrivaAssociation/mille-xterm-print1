@@ -12,6 +12,7 @@ Group:		System/Servers
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL:		https://www.revolutionlinux.com/mille-xterm
 Source:		mille-xterm-print%{major}-%{version}.tar.bz2
+BuildRequires:	make
 BuildRequires:	libcups-devel
 BuildRequires:	glib2-devel
 
